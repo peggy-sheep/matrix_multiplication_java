@@ -78,11 +78,11 @@ public class MatrixMultiplication {
                 parts = line.split(",");
 				
 				// TODO: Check column size consistency
-				/*
+				
                 if (parts.length != cols) {
                     String message = "Error! Column size is not the same in " + filename + " at line " + (rows+1);
                     throw new Exception(message);
-                }*/
+                }
             }
         } while (line != null);
 
